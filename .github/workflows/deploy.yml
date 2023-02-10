@@ -2,7 +2,7 @@ on:
   workflow_dispatch:  
 
 env:
-  targetEnv: Dev
+  targetEnv: dev
   AZURE_RG: WTH
 
 jobs:
@@ -25,4 +25,4 @@ jobs:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
           resourceGroupName: ${{ env.AZURE_RG }}
           template: ./ARM-Templates/container-webapp-template.json
-          #parameters: webAppName=WTHApp-${{ env.targetEnv }}
+          parameters: webAppName=WebApp-${{ env.targetEnv }}
