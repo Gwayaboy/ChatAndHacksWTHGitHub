@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "defaultValue": "frtheola-devops-dev",
+            "defaultValue": "gwayaboy_devops-dev",
             "type": "String"
         },
         "hostingPlanName": {
-            "defaultValue": "frtheola-devops-asp",
+            "defaultValue": "gwayaboy_devops-asp",
             "type": "String"
         },
         "appInsightsLocation": {
@@ -15,7 +15,7 @@
             "type": "String"
         },
         "appInsightsName": {
-            "defaultValue": "frtheola-devops-ai",
+            "defaultValue": "gwayaboy_devops-ai",
             "type": "String"
         },        
         "sku": {
@@ -23,11 +23,11 @@
             "type": "String"
         },
         "registryName": {
-            "defaultValue": "frtheola-devopsreg",
+            "defaultValue": "gwayaboy_devopsreg",
             "type": "String"
         },
         "imageName": {
-            "defaultValue": "frtheola-devopsimage",
+            "defaultValue": "gwayaboy_devopsimage",
             "type":"String"
         },
         "registryLocation": {
