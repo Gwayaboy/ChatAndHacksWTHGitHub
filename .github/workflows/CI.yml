@@ -6,10 +6,10 @@ name: .NET
 on:
   push: 
     branches: [ "main" ]
-    paths: 'application/**'
+    paths: 'application/*'
   pull_request:
     branches: [ "main" ]
-    paths: 'application/**'
+    paths: 'application/*'
 
 jobs:
   build:
