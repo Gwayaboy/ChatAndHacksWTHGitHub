@@ -3,6 +3,11 @@
 
 name: continous integration
 
+env:
+  registryName : CNTWTHdevopsreg.azurecr.io
+  repositoryName: repositoryName 
+  dockerFolderPath: ./Application/src/RazorPagesTestSample
+
 on:
   push: 
     branches: [ "main" ]
