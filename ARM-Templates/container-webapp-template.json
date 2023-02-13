@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "defaultValue": "gwayaboydevops-dev",
+            "defaultValue": "CNTWTHdevops-dev",
             "type": "String"
         },
         "hostingPlanName": {
-            "defaultValue": "gwayaboydevops-asp",
+            "defaultValue": "CNTWTHdevops-asp",
             "type": "String"
         },
         "appInsightsLocation": {
@@ -15,7 +15,7 @@
             "type": "String"
         },
         "appInsightsName": {
-            "defaultValue": "gwayaboydevops-ai",
+            "defaultValue": "CNTWTHdevops-ai",
             "type": "String"
         },        
         "sku": {
@@ -23,11 +23,11 @@
             "type": "String"
         },
         "registryName": {
-            "defaultValue": "gwayaboydevopsreg",
+            "defaultValue": "CNTWTHdevopsreg",
             "type": "String"
         },
         "imageName": {
-            "defaultValue": "gwayaboydevopsimage",
+            "defaultValue": "CNTWTHdevopsimage",
             "type":"String"
         },
         "registryLocation": {
