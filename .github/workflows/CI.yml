@@ -5,7 +5,7 @@ name: continous integration
 
 env:
   registryName : CNTWTHdevopsreg.azurecr.io
-  repositoryName: repositoryName 
+  repositoryName: wth/dotnetcoreapp 
   dockerFolderPath: ./Application/src/RazorPagesTestSample
 
 on:
