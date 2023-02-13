@@ -1,5 +1,6 @@
 on:
   workflow_dispatch:  
+name: Deploy infrastructure
 
 env:
   targetEnv: prod
